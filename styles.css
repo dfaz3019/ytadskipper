@@ -1,0 +1,23 @@
+.skip-button-container {
+    align-content: center;
+}
+
+.skip-button {
+    background-color: #0f0f0f;
+    color: white;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    height: 36px;
+    width: 94px;
+    padding: 0px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.skip-button:hover {
+    background-color: #272727;
+}

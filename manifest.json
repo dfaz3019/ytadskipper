@@ -1,15 +1,17 @@
 {
     "manifest_version": 2,
-    "name": "Youtube Ad-Skipper",
+    "name": "WebNavigation Example",
     "version": "1.0",
-  
-    "description": "Skips youtube ads",
-
+    "permissions": ["webNavigation", "activeTab"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
     "content_scripts": [
       {
-        "matches": ["*://*.youtube.com/watch*"],
+        "matches": ["<all_urls>"],
         "js": ["adskipper.js"],
-        "run_at": "document_end"
+        "css": ["styles.css"]
       }
     ]
   }
