@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "WebNavigation Example",
+    "name": "YT Ad Skipper",
     "version": "1.0",
     "permissions": ["webNavigation", "activeTab"],
     "background": {
